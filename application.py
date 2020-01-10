@@ -16,4 +16,4 @@ api.add_resource(Trends, '/trends/top5/<string:genres>')
 api.add_resource(RandomMovies, '/user/selection/')
 api.add_resource(GetMovies, '/recommendation/<string:user_id>/<string:movie_id>')
 
-app.run(port=5000)
+app.run()
